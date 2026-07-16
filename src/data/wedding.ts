@@ -1,0 +1,136 @@
+export const wedding = {
+  bride: {
+    name: 'Anastasia Putri Maharani',
+    nickname: 'Anastasia',
+    father: 'Bapak Drs. H. Maharani Wibowo',
+    mother: 'Ibu Hj. Sri Wahyuni Maharani',
+    instagram: 'https://instagram.com',
+    photo: 'https://images.pexels.com/photos/1457842/pexels-photo-1457842.jpeg?auto=compress&cs=tinysrgb&w=600',
+  },
+  groom: {
+    name: 'Alexander Kusuma Adhyatma',
+    nickname: 'Alexander',
+    father: 'Bapak Ir. H. Kusuma Adhyatma',
+    mother: 'Ibu Hj. Dewi Lestari Adhyatma',
+    instagram: 'https://instagram.com',
+    photo: 'https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?auto=compress&cs=tinysrgb&w=600',
+  },
+  date: '2026-12-20T08:00:00+07:00',
+  dateLabel: '20 Desember 2026',
+  location: 'The Ritz-Carlton, Bali',
+  hashtag: 'AnastasiaAlexander2026',
+  events: [
+    {
+      title: 'Akad Nikah',
+      date: 'Minggu, 20 Desember 2026',
+      time: '08.00 - 10.00 WIB',
+      venue: 'Pendopo Agung',
+      address: 'Jl. Ritz-Carlton, Sawangan, Nusa Dua, Bali',
+      dress: 'Formal / Batik',
+      mapUrl: 'https://www.google.com/maps?q=Ritz+Carlton+Bali&output=embed',
+      navUrl: 'https://www.google.com/maps/dir/?api=1&destination=Ritz+Carlton+Bali',
+    },
+    {
+      title: 'Resepsi',
+      date: 'Minggu, 20 Desember 2026',
+      time: '11.00 - 14.00 WIB',
+      venue: 'Grand Ballroom',
+      address: 'Jl. Ritz-Carlton, Sawangan, Nusa Dua, Bali',
+      dress: 'Black Tie / Formal',
+      mapUrl: 'https://www.google.com/maps?q=Ritz+Carlton+Bali&output=embed',
+      navUrl: 'https://www.google.com/maps/dir/?api=1&destination=Ritz+Carlton+Bali',
+    },
+  ],
+  story: [
+    {
+      year: '2019',
+      title: 'Pertemuan Pertama',
+      text: 'Kami bertemu pertama kali di sebuah seminar di Jakarta. Sebuah obrolan singkat yang menjadi awal dari segalanya.',
+    },
+    {
+      year: '2020',
+      title: 'Awal Perkenalan',
+      text: 'Meski terpisah jarak, kami terus saling mengenal melalui obrolan tanpa henti hingga hati mulai terhubung.',
+    },
+    {
+      year: '2022',
+      title: 'Melamar',
+      text: 'Di tengah senja di tepian pantai, Alexander berlutut dan melamar Anastasia dengan cincin yang sederhana namun penuh makna.',
+    },
+    {
+      year: '2026',
+      title: 'Hari Bahagia',
+      text: 'Hari yang dinanti pun tiba. Kami mengikat janji suci untuk berjalan bersama selamanya dalam suka dan duka.',
+    },
+  ],
+  family: [
+    { role: 'Ayah Mempelai Wanita', name: 'Drs. H. Maharani Wibowo' },
+    { role: 'Ibu Mempelai Wanita', name: 'Hj. Sri Wahyuni Maharani' },
+    { role: 'Ayah Mempelai Pria', name: 'Ir. H. Kusuma Adhyatma' },
+    { role: 'Ibu Mempelai Pria', name: 'Hj. Dewi Lestari Adhyatma' },
+  ],
+  moments: [
+    { date: '14 Februari 2020', title: 'Kencan Pertama', text: 'Kencan pertama kami di kafe kecil di pinggiran Jakarta.' },
+    { date: '25 Desember 2021', title: 'Liburan Pertama', text: 'Liburan pertama kami bersama ke pulau Lombok.' },
+    { date: '10 September 2022', title: 'Lamaran', text: 'Hari di mana kami berdua memutuskan untuk melangkah ke jenjang yang lebih serius.' },
+    { date: '20 Desember 2026', title: 'Hari Pernikahan', text: 'Hari di mana kami mengikat janji suci di hadapan keluarga dan sahabat.' },
+  ],
+  gallery: [
+    'https://images.pexels.com/photos/1444442/pexels-photo-1444442.jpeg?auto=compress&cs=tinysrgb&w=800',
+    'https://images.pexels.com/photos/1024993/pexels-photo-1024993.jpeg?auto=compress&cs=tinysrgb&w=800',
+    'https://images.pexels.com/photos/169198/pexels-photo-169198.jpeg?auto=compress&cs=tinysrgb&w=800',
+    'https://images.pexels.com/photos/931796/pexels-photo-931796.jpeg?auto=compress&cs=tinysrgb&w=800',
+    'https://images.pexels.com/photos/2253870/pexels-photo-2253870.jpeg?auto=compress&cs=tinysrgb&w=800',
+    'https://images.pexels.com/photos/1024984/pexels-photo-1024984.jpeg?auto=compress&cs=tinysrgb&w=800',
+    'https://images.pexels.com/photos/2253842/pexels-photo-2253842.jpeg?auto=compress&cs=tinysrgb&w=800',
+    'https://images.pexels.com/photos/1024960/pexels-photo-1024960.jpeg?auto=compress&cs=tinysrgb&w=800',
+  ],
+  gifts: [
+    {
+      type: 'Transfer Bank',
+      bank: 'BCA',
+      number: '1234567890',
+      holder: 'Anastasia Putri Maharani',
+    },
+    {
+      type: 'Transfer Bank',
+      bank: 'Mandiri',
+      number: '0987654321',
+      holder: 'Alexander Kusuma Adhyatma',
+    },
+    {
+      type: 'QRIS',
+      qris: 'https://api.qrserver.com/v1/create-qr-code/?size=240x240&data=QRIS-WEDDING-ANASTASIA-ALEXANDER',
+    },
+    {
+      type: 'E-Wallet',
+      bank: 'GoPay / OVO / DANA',
+      number: '081234567890',
+      holder: 'Anastasia Putri Maharani',
+    },
+  ],
+  faqs: [
+    {
+      q: 'Apakah saya perlu konfirmasi kehadiran?',
+      a: 'Ya, mohon konfirmasi kehadiran Anda melalui form di undangan ini paling lambat 10 Desember 2026.',
+    },
+    {
+      q: 'Apakah saya boleh membawa tamu?',
+      a: 'Mohon konfirmasi jumlah tamu pada form konfirmasi kehadiran. Kami menyediakan tempat terbatas sesuai jumlah konfirmasi.',
+    },
+    {
+      q: 'Apa dress code acara?',
+      a: 'Untuk Akad Nikah kami menganjurkan busana formal atau batik. Untuk Resepsi, busana black tie atau formal.',
+    },
+    {
+      q: 'Apakah parkir tersedia?',
+      a: 'Ya, tersedia valet parking gratis untuk seluruh tamu undangan di lokasi acara.',
+    },
+    {
+      q: 'Bisakah saya memberi hadiah?',
+      a: 'Tentu saja. Kami menyediakan bagian hadiah dengan rekening bank, QRIS, dan e-wallet untuk memudahkan Anda.',
+    },
+  ],
+  whatsapp: '6281234567890',
+  music: 'https://cdn.pixabay.com/audio/2022/10/18/audio_3b1c8b6e6a.mp3',
+};
